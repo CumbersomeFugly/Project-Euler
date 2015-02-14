@@ -36,7 +36,7 @@ var listLength = 10001,
     list = [];
 
 for (i = 0; i <= listLength; i+= 1) {
-    while(isPrime(numToCheck) !== true){
+    while(isPrime(numToCheck) !== true) {
         numToCheck += 1;
     }
     list.push(numToCheck);
